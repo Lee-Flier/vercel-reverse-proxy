@@ -1,8 +1,6 @@
 {
   "rewrites": [
-    { "source": "/proxy/:match/:url*", "destination": "https://:match/:url*" },
-    { "source": "/proxy/:match/:url*/", "destination": "https://:match/:url*/" },
-    { "source": "/httpproxy/:match/:url*", "destination": "http://:match/:url*" },
-    { "source": "/httpproxy/:match/:url*/", "destination": "http://:match/:url*/" }
+    { "source": "/dockerhub/:url*", "destination": "https://hub.docker.com/:url*" },
+    { "source": "/dockerhub/:url*/", "destination": "https://hub.docker.com/:url*/" }
   ]
 }
