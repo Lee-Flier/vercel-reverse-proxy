@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/dockerhub/:url*", "destination": "https://hub.docker.com/:url*" },
-    { "source": "/dockerhub/:url*/", "destination": "https://hub.docker.com/:url*/" }
+    { "source": "/:url*", "destination": "https://chatgpt.com/:url*" },
+    { "source": "/:url*/", "destination": "https://chatgpt.com/:url*/" }
   ]
 }
