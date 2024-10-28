@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/:url*", "destination": "https://chatgpt.com/:url*" },
-    { "source": "/:url*/", "destination": "https://chatgpt.com/:url*/" }
+    { "source": "/chatgpt/:url*", "destination": "https://chatgpt.com/:url*" },
+    { "source": "/chatgpt/:url*/", "destination": "https://chatgpt.com/:url*/" }
   ]
 }
